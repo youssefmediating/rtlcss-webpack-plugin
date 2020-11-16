@@ -1,5 +1,5 @@
-import path from 'path';
-import rtlcss from 'rtlcss';
+const path = require('path');
+const rtlcss = require('rtlcss');
 
 const cssOnly = filename => path.extname(filename) === '.css';
 
